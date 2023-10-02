@@ -1,0 +1,12 @@
+body{background-color:#E0FFFF;}
+
+img{
+margin: 0px 10px 0px 70px;
+border-radius:20px 20px 20px 20px;
+-moz-border-radius:20px 20px 20px 20px;
+-webkit-border-radius:20px 20px 20px 20px;
+}
+
+.title{font-style:arial;font-weight:bold;text-shadow: 2px 2px 2px skyblue}
+
+.cont{text-align:center;font-family: "Times New Roman", Times, serif;font-size: 18px;color:SlateBlue;}
