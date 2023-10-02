@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Method</title>
+	<link rel="stylesheet" href="Payment%20Method.css"/>
+    <link rel="stylesheet" href="Project.css"/> 
+</head>
+<body>
+
+<center><fieldset class="field" style="border:0px">
+<h2 class="heading">Accepted Cards :</h2>
+
+<div id="f-image">	
+	<center><img src="Vs_payment.png"/>
+	<img src="Mc_payment.png"/></center>
+</div>
+    </fieldset></center>
+
+<br>
+<br>
+<center><fieldset style="width:300px;border:1px solid;background-color:honeydew">
+<div class="p">
+	<p>Enter your payment details</p>
+</div>
+
+<div class = "b" style="background-color:white">
+	<p><label for="UCn"></label><input type="text" class="icon" placeholder="Card Number" id="UCn" name="txtCn" maxlength="19" size="46" required/></p>
+	<div id="loginArea">
+		<div id="paymentForm">
+				<input type="text" name="Month/Year" id="UMY" placeholder="Month/Year" maxlength="5" size="21" required/>
+				<input type="text" name="CVV" id="UCvv" placeholder="CVV" maxlength="3" size="22" required/>
+		</div>
+	</div>
+	<br>
+	<p><input type="text" placeholder="Name" id="UName" name="txtUName" maxlength="55" size="49" required/></p>
+	<p><input type="tel" placeholder="Phone Number" id="UPnum" name="txtUPnum" maxlength="55" size="49" required/></p>
+	<p><input type="text" placeholder="Street address" id="USa" name="txtUSa" maxlength="55" size="49" required/></p>
+	<p><input type="text" placeholder="Apt, unit, suite, etc (optional)" id="USa" name="txtUSa" maxlength="55" size="49" required/></p>
+	<p><input type="text" placeholder="Postcode" id="UPc" name="txtUPc" maxlength="5" size="49" required/></p>
+	<div id="styled-select">   
+		<select name="state" id="state" style="width:auto;float:left">
+			<option val="">State</option>
+			<option val="1">Johor</option>
+			<option val="2">Kedah</option>
+			<option val="3">Kelantan</option>
+			<option val="4">Melaka</option>
+			<option val="5">Negeri Sembilan</option>
+			<option val="6">Pahang</option>
+			<option val="7">Penang</option>
+			<option val="8">Perak</option>
+			<option val="9">Perlis</option>
+			<option val="10">Sabah</option>
+			<option val="11">Sarawak</option>
+			<option val="12">Selangor</option>
+			<option val="13">Terengganu</option>
+		</select>   
+	</div>
+	
+</div>
+<br>
+<div class="button">
+		<div id="btn">
+                
+                <a href="ticket%20cart.html">
+				<input type="button" value="Back to Cart" name="btnbtc" style="width:auto;float:left"></a>
+            
+				<input type="button" value="Payment" onclick="ds()" style="width:auto;float:right">
+					
+                    <script>
+					   function ds(){
+						  alert('Payment Successful');
+                          location.href="TicketBooking.html";
+					   }
+					</script>
+		</div>
+	</div>
+
+</fieldset></center>
+
+

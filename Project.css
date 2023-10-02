@@ -1,0 +1,481 @@
+a:link{text-decoration:none}
+
+body{
+   animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+#water-background{
+    background-image: url(backgroung4.png);
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    transition-duration: 0.4s;
+
+}
+
+.center1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-hori-navi{
+	background-color:#99ccff;
+	overflow:auto;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+	}
+
+
+ul.hori-navi{list-style-type:none;
+	margin:0;
+	padding:0;
+    
+	}
+
+.hori-navi li{
+	float:left;
+    
+}
+
+.hori-navi li a{
+	display: inline-block;
+	width:150px;
+	padding:5px 10px;
+	color:darkblue;
+	text-align:center;
+	text-decoration:none;
+    transition-duration: 0.4s;
+}
+
+
+.hori-navi li a:hover{
+	background-color:#456ABC;
+	color:white;
+}
+
+
+
+#font{
+    background-color: azure;
+    outline-style:solid;
+    border-radius: 5px;
+    font-family:cursive;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#font2{
+    font-family: italic;
+    font-size: 15pt;
+}
+
+#content{
+	display:flex;
+	flex-direction:horizontal;
+}
+
+#main-page-box{
+    border: 1px;
+}
+
+
+#left-column{
+	width:530px;
+	padding:10px;
+}
+
+#right-column{
+	width:500px;
+	padding:10px;
+	border-width:0px;
+}
+
+#left-column2{
+	width:630px;
+	padding:10px;
+}
+
+#right-column2{
+	width:600px;
+	padding:10px;
+	border-width:0px;
+}
+
+#padding_left{
+    padding-left: 60px;
+}
+
+#padding_left1{
+    padding-left: 200px;
+}
+
+fieldset{
+    margin-left: auto;
+  margin-right: auto;
+    width: 500px;
+    border-color: blue;
+    border-radius: 10px;
+    border-width:5px;
+    align-items: center;
+}
+
+#box{
+    border-width:5px;
+}
+
+.padding1{
+    padding-right: 200px;
+}
+
+.map-hover:hover{
+    color:cornflowerblue;
+    text-decoration: underline; 
+}
+
+.signin_box{
+    padding-bottom: 10px;
+	width:500px;
+    margin-right: auto;
+	margin-left: auto;
+	border-style:solid;
+	border-width:2px;
+	border-color:brown;
+	background-color:azure;
+	box-shadow:5px 5px brown;
+	border-radius:20px;
+}
+
+
+p1{
+    padding-top: 15px;
+    padding-left:110px;
+}
+
+.logorepeat{
+	background-image:url(sunwaylogo-malaysia-NEW_final_with-outline.png),url(Sunway-lost-world3.png);
+    background-repeat:repeat-y,repeat-y;
+	background-position:left,right;
+    background-size: 200px;
+    padding: 10px;
+    margin:150px;
+	
+}
+
+.img_hover{
+    background-image: url(sunway_logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 215px;
+    width: 220px ;
+    height: 75px; 
+    transition-duration: 0.4s;
+}
+
+.img_hover:hover{
+    
+    opacity: 0.5;
+}
+
+#ctus_background{
+    background-image: url(white-abstract-background.png);
+    background-size: cover
+}
+
+#button1{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(btn1.png);
+    background:cover;
+    width: 250px; 
+    height: 50px;
+    border-radius: 20px; 
+    font-weight: bolder; 
+    color: white; 
+}
+
+#button1 {
+  transition-duration: 0.4s;
+}
+
+#button2 {
+  transition-duration: 0.4s;
+}
+
+#button1:hover{
+    opacity: 0.8;
+    color: black;
+}
+
+#button2:hover{
+    opacity: 0.8;
+    color: white;
+    background-color: skyblue;
+}
+
+#contactus_box{
+    background-color:cornsilk;
+    height: 500px;
+    width:400px;
+    height: auto;
+}
+
+#email_hover:hover{
+    color:purple;
+    text-decoration: underline; 
+}
+
+#aboutus1{
+    background-image: url(aboutus-bg.png);
+    background-size: cover;
+}
+
+#aboutus2{
+    background-image: url(aboutus2.png);
+    background-size: cover;
+}
+
+#aboutus_logo{
+    background-image: url(aboutus-logo.png);
+    background-size: auto;
+}
+
+.logorepeat1{
+	background-image:url(sunwaylogo-malaysia-NEW_final_with-outline.png);
+    background-repeat:repeat-x;
+	background-position:right;
+    background-size: 200px;
+    padding: 60px;
+	
+}
+
+.logorepeat2{
+	background-image:url(sunway_lost_world_logo.png);
+    background-repeat:repeat-x;
+	background-position:right;
+    background-size: 200px;
+    padding: 60px;
+	
+}
+
+#myDIV {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    animation: transitionIn 0.75s;
+}
+
+@keyframes a{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/* Ladding page*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:#99ccff;
+}
+
+.topnav a {
+    float: left;
+    color:darkblue;
+    text-align: center;
+  
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:#456ABC;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#floatleft{
+    float:left;
+}
+
+#landinglogo{
+    background-image: url(sunway_logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px ;
+    height:52px; 
+    transition-duration: 0.4s;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image:hover{
+    filter: blur(5px);
+}
+
+.sunwaypic{
+    position: relative;
+    width: 1100px;
+    height: 619px;
+}
+
+.sunwaypic:hover .overlay{
+    opacity: 0.7;
+ 
+}
+/*-----------------------------------*/
+.sunwaypic2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.sunwaypic2:hover .overlay{
+    opacity: 0.7;
+ 
+}
+/*-----------------------------------*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*-----------------------------------*/
+
+    .rate {float: left;height: 46px;padding: 0px 10px;}
+	.rate:not(:checked) > input {position:absolute;top:-9999px;}
+	.rate:not(:checked) > label {float:right;width:1em;overflow:hidden;white-space:nowrap;cursor:pointer;font-size:30px; color:#ccc;}
+	.rate:not(:checked) > label:before {content: ' ★ ';}
+	.rate > input:checked ~ label {color: #ffc700;}
+	.rate:not(:checked) > label:hover,
+	.rate > label:hover ~ input:checked ~ label {color: golden;}
+	.rate:not(:checked) > label:hover ~ label {color: #deb217;  }
+	.rate > input:checked + label:hover,
+	.rate > input:checked + label:hover ~ label,
+	.rate > input:checked ~ label:hover,
+	.rate > input:checked ~ label:hover ~ label,
+	.rate > label:hover ~ input:checked ~ label {color: golden;}
+
+.ratingbox{
+    border-color:antiquewhite;
+    background-color: beige;
+    border-radius: 50px 50px 0px 0px; 
+    box-shadow:5px 5px 5px gray;
+    height: 150px;
+    
+}
+
+#left-column3{
+	width:530px;
+	padding:10px;
+}
+
+#right-column3{
+	width:300px;
+	padding:10px;
+	border-width:0px;
+}
+
+#ratingbtn{
+    border: 2px solid;
+    border-color: burlywood;
+    border-radius: 10px;
+    background-color: bisque;
+    width: 100px;
+    height: 30px;
+    font-family:monospace;
+    font-weight: bolder;
+    box-shadow: 3px 3px 8px ;
+}
+/*-----------------------------------*/
+/*----------admin home page--------------*/
+/*-----------------------------------*/
+#adminpage{
+    border:0px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px white;
+    width:200px;
+    height: 150px;
+    background-color:whitesmoke;
+    float: left;
+    margin: 10px;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+#ticketbox{
+    border: 1px solid;
+    width: 220px;
+    height:550px;
+    float:left;
+    margin: 20px;
+    background-color: azure;
+    box-shadow: 10px 10px 30px black;
+}
+
+#ticketbox2{
+    border: 0px solid;
+    width: 220px;
+    height:100px;
+    float:left;
+    margin-top: -99px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ticketImage{
+    width: 200px;
+    height: 170px;
+}

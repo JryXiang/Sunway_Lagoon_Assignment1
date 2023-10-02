@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   
+	<title>Admin Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+	<link rel="stylesheet" href="Project.css"/> 
+     <script src="Project_Java_Script.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
+
+    
+	<script >
+        alert("You are now at the admin page.")
+	</script>
+    
+    <style>
+        p{color: darkgray;font-size:20px}
+    </style>
+	
+</head>
+	
+<body style="background-image: url(Adminbackgroud.png);background-size: auto">
+
+    <div class="topnav">
+    <a href="SUNWAY_THEME_PARK.html">
+        
+        <div id="landinglogo"></div>
+    </a>
+        <a onclick="Signout()" style="padding: 14px 16px; float:right;" ><i class="material-icons" style="float: left" >power_settings_new</i>Sign Out</a>
+    
+        <a style="padding: 14px 16px; float:right" href="ProductCategory.html"><i class="material-icons" style="float: left">pageview</i>Product</a>
+        
+        <a onclick="myFunction()" style="padding: 14px 16px; float:right" href="Staff.html"><i class="material-icons" style="float: left" >group</i>Staff</a>
+        
+        <a style="padding: 14px 16px; float:right" href="Order.html"><i class="material-icons" style="float: left">web</i>Order</a>
+        
+        <a style="padding: 14px 16px; float:right" href="Members.html"><i class="material-icons" style="float: left">person</i>Members</a>
+
+</div>
+    <br><br><br><br><fieldset style="width: 880px; border: 1px"><center>
+    <div id="adminpage">
+        <image src="members.png"><br>Member</image>
+        <p>15,360</p>
+    </div>
+    
+    <div id="adminpage">
+        <image src="admin.png"><br>Admin</image>
+        <p>520</p>
+    </div>
+    
+    <div id="adminpage">
+        <image src="sales.png"><br>Sales per Week</image>
+        <p>4,880</p>
+    </div>
+    
+    <div id="adminpage">
+        <image src="rating.png"><br>Rating</image>
+        <p>18,256</p>
+    </div>
+    
+    </center>
+    </fieldset>
+    
+    <br><br>
+    
+    <center>
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+    <script>
+        var xValues = ["Member", "Admin", "Sales Today", "Rating"];
+        var yValues = [15360, 520, 4880, 18256];
+        var barColors = [
+            "#b91d47",
+            "#00aba9",
+            "#2b5797",
+            "#e8c3b9",
+        ];
+
+        new Chart("myChart", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+        options: {
+            title: {
+            display: true,
+            text: "SUNWAY THEME PARK DETAILS"
+        }
+        }
+    });
+</script>
+    </center>
+    
+    
+    
+</body>

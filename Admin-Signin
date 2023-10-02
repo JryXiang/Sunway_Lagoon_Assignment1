@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sign In</title>
+    <link rel="stylesheet" href="Project.css"/>
+    <script src="Project_Java_Script.js"></script>
+    
+    <script>
+        alert("You are now at the Sign In page.");
+    </script>
+    
+</head>
+
+<body class="logorepeat" style="background-color:antiquewhite">
+   <div class="center">
+    <a href="SUNWAY_THEME_PARK.html">
+        <div class="img_hover"></div>
+    </a>
+       </div>
+    
+    <br>
+    
+    <form>
+        <div class="signin_box">
+            
+                
+            <h2 style="text-align: center">Sign In</h2>
+            <br>
+            <p1>Email : <input type="email" id="yemail2" placeholder="xxxx@xxxx.com" size="30" maxlegth="30" required></p1>
+        
+            
+            <p></p>
+            
+            <p1>Password : <input type="password" id="ypassword2" placeholder="Password" maxlegth="20" required>
+            </p1>
+            
+            <p></p>
+            
+            <br>
+            <p1 style="padding-left: 220px">
+                
+                <button style="border-color: darksalmon; border-radius: 10px; font-weight: bold; box-shadow: 3px 3px darksalmon" type="submit;" target="_blank"  name="subbtn" onclick="loginf();">Sign in</button>
+            <br>
+                <p style="padding-left: 140px">Don't have Account? <a href="SignUp.html" >Sign Up</a> now</p>
+                <br>
+            </p1>
+            </div>   
+        
+            
+        <p></p>
+    </form>
+    
+</body>
+
+</html>

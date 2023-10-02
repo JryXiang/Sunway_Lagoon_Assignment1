@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   
+	<title>Sunway Water Park</title>
+    
+	<link rel="stylesheet" href="Project.css"/> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script src="Project_Java_Script.js"></script>
+    
+	<script >
+        alert("Welcome to Sunway Water Park Introduction and Ticket Booking! ")
+	</script>
+	
+</head>
+	
+<body id="water-background">
+
+    <div class="topnav">
+    <a href="SUNWAY_THEME_PARK.html">
+        
+        <div id="landinglogo"></div>
+    </a>
+        <a onclick="Signout()" style="padding: 14px 16px; float:right;" ><i class="material-icons" style="float: left" >power_settings_new</i>Sign Out</a>
+    
+        <a style="padding: 14px 16px; float:right" href="ContactUs.html"><i class="material-icons" style="float: left">fax</i>Contact Us</a>
+        
+        <a onclick="myFunction()" style="padding: 14px 16px; float:right" href="#"><i class="material-icons" style="float: left" >group</i>About Us</a>
+        
+        <a style="padding: 14px 16px; float:right" href="#"><i class="material-icons" style="float: left">label</i>Ticket</a>
+        
+        <a style="padding: 14px 16px; float:right" href="SUNWAY_THEME_PARK.html"><i class="material-icons" style="float: left">house</i>Home Page</a>
+
+</div>

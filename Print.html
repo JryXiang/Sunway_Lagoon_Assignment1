@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Print and View Purchase</title>
+<link rel="stylesheet" href="Project.css"/> 
+<link rel="stylesheet" href="manage_staff_member_order.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+    
+<body>
+    
+    <div class="topnav">
+        <a href="Admin-homepage.html">
+            <div id="landinglogo"></div>
+        </a>
+        
+        <a onclick="Signout()" style="padding: 14px 16px; float:right;" ><i class="material-icons" style="float: left" >power_settings_new</i>Sign Out</a>
+    </div>
+    
+    <center>
+        
+        <h1>Order Details</h1>
+       
+        <table>
+            <br><br>
+            <th>Order Type</th>
+            <th>Buyer Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Date of Purchase</th>
+            <th>Quantity</th>
+            
+            <tr>
+                <td>
+                    <center><br><img src="Ticket1.png">
+                    </center>
+                </td>
+                
+                <td>
+                    <center><b>Ali</b></center>
+                </td>
+                
+                <td>
+                    <center><b>ali@gmail.com</b></center>
+                </td>
+                
+                <td>
+                    <center><b>012-348 5415</b></center>
+                </td>
+
+                <td>
+                    <center><b>15/8/2022</b></center>
+                </td>
+                
+                <td>
+                    <ul>
+                        <li><b>2 x </b>RM155 Adult</li>
+                        <li><b>1 x </b>RM130 Child/Senior Citizen</li>
+                        <br><br>
+                        <b>Total : RM 440</b>
+                    </ul>
+                </td>
+                
+            </tr>
+            
+            
+    
+        </table>
+        <br><br>
+        <a href=Order.html><input type="button" name="back" value="Back to list" /></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="print" value="Print this page" onclick="window.print()"/>
+    </center>
+
+</body>
+</html>

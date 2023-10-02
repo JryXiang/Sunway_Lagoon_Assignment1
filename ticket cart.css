@@ -1,0 +1,59 @@
+body{
+ background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ background-size:cover;
+}
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+.tr{
+  background:#E0FFFF;
+}
+.title{
+ padding-top: 5px;
+ line-height: 10px;
+ font-size: 32px;
+ font-family: ‘Open Sans’;
+ font-weight: 800;
+ color: #202020;
+}
+.subtitle{
+ line-height: 10px;
+ font-size: 18px;
+ font-weight: 600;
+ color: #909090;
+}
+.amount{
+ padding-top: 20px;
+ font-size: 26px;
+ font-family: ‘Open Sans’;
+ font-weight: 800;
+ color: #202020;
+}
+
+.img_hover{
+    background-image: url(sunway_logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 215px;
+    width: 220px ;
+    height: 75px; 
+    transition-duration: 0.4s;
+}
+
+.img_hover:hover{
+    
+    opacity: 0.5;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    transition-duration: 0.4s;
+
+}

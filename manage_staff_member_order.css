@@ -1,0 +1,59 @@
+*
+{
+	font-family:Gadugi;
+}
+
+h1
+{
+	font:50px oblique;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 3px 3px 3px black;
+}
+
+fieldset
+{
+    width: 500px;
+	border:ridge 5px white;
+	text-shadow:3px 2px 5px beige;
+    box-shadow: 13px 13px 20px black;
+}
+
+input[type=button]
+{
+    border-color: beige;
+	background-color:cornsilk;
+	font-weight:bold;
+    box-shadow:3px 3px  4px black;
+}
+
+.picture{
+    background-image: url(profil.png);
+    background-size: 200px;
+    width: 200px;
+    height: 200px; 
+}
+
+table{
+    border-radius: 15px;
+    border-style:none;
+}
+
+td{
+    margin:10px;
+    border-radius: 20px;
+    border-style: double;
+    background-color:azure;
+    padding: 10px
+}
+
+th{
+    border-radius: 20px;
+    border-style:dashed;
+    background-color: azure
+}
+
+img{
+    width: 220px;
+    height:200px;
+}
